@@ -47,7 +47,9 @@ More about, What does this notebook does?:
     that number is retrieved from the information contained in that pdb.ent file. If non-existent
     will not be parse to dataframe.
 
-    Chemical distibution plots: also generates a heatmap and dist plot of targets.
+    Heatmaps: This script generate a numpy matrix of RMSD and sequence identity 
+    values calculated by TM-align tool. (which need to be prior installed in your
+    computer)
 
     Formatted dataset: The dataset is properly formatted to be used at RINDTI model
     https://rindti.readthedocs.io/en/master/index.html 
