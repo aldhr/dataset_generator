@@ -4,7 +4,7 @@ from TSV files retrieved from the Binding DB dataset. Those
 files are properly formatted to be used at RINDTI model
 https://rindti.readthedocs.io/en/master/index.html
 
-Some of the cell of this notebook are useful as scripts as 
+Some of the cells of this notebook are useful as scripts as 
 its own and are saved in a folder within this repository.
 Basically that other scripts are relevant by parsing information
 from PDB to pandas or viceversa (like getting protein structures,
