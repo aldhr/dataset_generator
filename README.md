@@ -39,13 +39,15 @@ More about, What does this notebook does?:
     pdb folder: This code also generated a folder with pdb structures and renames it as pdb id.pdb,
     same name that would be used in prot.tsv id.
 
-    Active Threshold: This code also create the active-inactive classification based
+    Active-Inactive Threshold: This code also create the active-inactive classification based
     on a cutoff of 10 mM. Whereas less than 10 mM indicates positive activity.
 
     Filter by EC number: In case to be interest in specific class of enzymatic activity,
     it could be filter by EC number. However, this highly depends on pdb files, since
     that number is retrieved from the information contained in that pdb.ent file. If non-existent
     will not be parse to dataframe.
+
+    Chemical distibution plots: also generates a heatmap and dist plot of targets.
 
     Formatted dataset: The dataset is properly formatted to be used at RINDTI model
     https://rindti.readthedocs.io/en/master/index.html 
