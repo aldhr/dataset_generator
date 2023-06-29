@@ -6,6 +6,7 @@ https://rindti.readthedocs.io/en/master/index.html
 
 The files (TSV, TXT, or images) will contain information 
 about:
+
     Class balance: This code will downsample the dataset to easily-tune 
     a max radio of 1:3. Minimum samples per class is also easily-tune parameter.
     results/active-inactives_info.txt file generated will provide the class balance per target.
